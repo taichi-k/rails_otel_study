@@ -1,0 +1,1 @@
+# rails_otel_study
