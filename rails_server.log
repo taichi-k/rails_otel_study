@@ -1,0 +1,14 @@
+=> Booting Puma
+=> Rails 8.0.4 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+E, [2025-12-11T23:10:20.880410 #59373] ERROR -- : OpenTelemetry error: unexpected configuration error due to unknown keyword: :insecure - OpenTelemetry::SDK::ConfigurationError - /Users/tai/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/opentelemetry-sdk-1.10.0/lib/opentelemetry/sdk.rb:74:in `rescue in configure'
+Puma starting in single mode...
+* Puma version: 7.1.0 ("Neon Witch")
+* Ruby version: ruby 3.3.5 (2024-09-03 revision ef084cc8f4) [arm64-darwin24]
+*  Min threads: 3
+*  Max threads: 3
+*  Environment: development
+*          PID: 59373
+* Listening on http://127.0.0.1:3000
+* Listening on http://[::1]:3000
+Use Ctrl-C to stop

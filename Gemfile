@@ -14,15 +14,14 @@ gem "puma", ">= 5.0"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-# OpenTelemetry core
 gem 'opentelemetry-sdk'
 gem 'opentelemetry-exporter-otlp'
 
-# Rails / ActiveRecord / ActiveJob / Net::HTTP あたりの自動計装
 gem 'opentelemetry-instrumentation-rails'
 gem 'opentelemetry-instrumentation-active_record'
 gem 'opentelemetry-instrumentation-active_job'
 gem 'opentelemetry-instrumentation-net_http'
+
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -34,3 +33,4 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
+gem "opentelemetry-instrumentation-all", "~> 0.89.1"
