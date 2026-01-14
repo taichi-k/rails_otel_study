@@ -33,4 +33,4 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
-gem "opentelemetry-instrumentation-all", "~> 0.89.1"
+gem "opentelemetry-instrumentation-all", "~> 0.90.1"
